@@ -84,12 +84,12 @@
         <version.wildfly.arquillian>5.0.1.Final</version.wildfly.arquillian>
 
         <!-- WILDFLY release-synchronized versions -->
-        <version.jboss.wildfly>30.0.0.Beta1</version.jboss.wildfly>
+        <version.jboss.wildfly>30.0.0.Final</version.jboss.wildfly>
         <version.jboss.logging>3.5.3.Final</version.jboss.logging>
         <version.jboss.logging.processor>2.2.1.Final</version.jboss.logging.processor>
         <version.jboss.logmanager>2.1.19.Final</version.jboss.logmanager>
         <version.jboss.modules>2.1.2.Final</version.jboss.modules>
-        <version.jboss.msc>1.5.1.Final</version.jboss.msc>
+        <version.jboss.msc>1.5.2.Final</version.jboss.msc>
         <version.jboss.vfs>3.3.0.Final</version.jboss.vfs>
         <!-- Java EE Specs -->
         <version.jboss.javaee.8.0.spec>1.0.4.Final</version.jboss.javaee.8.0.spec>
