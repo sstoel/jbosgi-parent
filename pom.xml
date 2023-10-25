@@ -203,11 +203,11 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
-                <groupId>org.jboss.spec</groupId>
-                <artifactId>jboss-javaee-8.0</artifactId>
-                <version>${version.jboss.javaee.8.0.spec}</version>
+                <groupId>org.wildfly.bom</groupId>
+                <artifactId>wildfly-ee-with-tools</artifactId>
+                <version>${version.jboss.wildfly}</version>
                 <type>pom</type>
-                <scope>provided</scope>
+                <scope>import</scope>
             </dependency>
 
             <!-- org.mockito -->
@@ -265,7 +265,6 @@
             <dependency>
                 <groupId>org.jboss.modules</groupId>
                 <artifactId>jboss-modules</artifactId>
-                <version>${version.jboss.modules}</version>
                 <scope>provided</scope>
             </dependency>
             <dependency>
