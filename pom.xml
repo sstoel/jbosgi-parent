@@ -265,6 +265,7 @@
             <dependency>
                 <groupId>org.jboss.modules</groupId>
                 <artifactId>jboss-modules</artifactId>
+		<version>${version.jboss.modules}</version>
                 <scope>provided</scope>
             </dependency>
             <dependency>
