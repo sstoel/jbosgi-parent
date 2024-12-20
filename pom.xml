@@ -8,7 +8,7 @@
     <artifactId>jbosgi-parent</artifactId>
     <packaging>pom</packaging>
 
-    <version>4.3.0</version>
+    <version>4.4.0</version>
 
     <url>http://www.jboss.org/jbossas/osgi</url>
     <description>JBossOSGi</description>
@@ -71,7 +71,7 @@
         <maven.compiler.source>21</maven.compiler.source>
 
         <!-- Arquillian Toolset -->
-        <version.jboss.arquillian.core>1.8.0.Final</version.jboss.arquillian.core>
+        <version.jboss.arquillian.core>1.9.1.Final</version.jboss.arquillian.core>
         <version.jboss.arquillian.jacoco>1.1.0</version.jboss.arquillian.jacoco>
         <version.jboss.arquillian.osgi>2.2.2.Final</version.jboss.arquillian.osgi>
 
@@ -84,9 +84,9 @@
         <version.wildfly.arquillian>5.0.1.Final</version.wildfly.arquillian>
 
         <!-- WILDFLY release-synchronized versions -->
-        <version.jboss.wildfly>33.0.0.Final</version.jboss.wildfly>
-        <version.jboss.logging>3.5.3.Final</version.jboss.logging>
-        <version.jboss.logging.processor>2.2.1.Final</version.jboss.logging.processor>
+        <version.jboss.wildfly>34.0.1.Final</version.jboss.wildfly>
+        <version.jboss.logging>3.6.1.Final</version.jboss.logging>
+        <version.jboss.logging.processor>3.0.1.Final</version.jboss.logging.processor>
         <version.jboss.logmanager>2.1.19.Final</version.jboss.logmanager>
         <version.jboss.modules>2.1.5.Final</version.jboss.modules>
         <version.jboss.msc>1.5.5.Final</version.jboss.msc>
