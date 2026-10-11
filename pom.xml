@@ -8,7 +8,7 @@
     <artifactId>jbosgi-parent</artifactId>
     <packaging>pom</packaging>
 
-    <version>4.7.0</version>
+    <version>4.8.0</version>
 
     <url>http://www.jboss.org/jbossas/osgi</url>
     <description>JBossOSGi</description>
@@ -96,7 +96,8 @@
         <version.jboss.javaee.8.0.spec>1.0.4.Final</version.jboss.javaee.8.0.spec>
 
         <!-- OSGI -->
-        <version.osgi>7.0.0</version.osgi>
+        <version.osgi>8.0.0</version.osgi>
+        <version.osgi.enterprise>7.0.0</version.osgi.enterprise>
 
         <!-- Distribution Management settings -->
         <jboss.releases.repo.url>https://repository.jboss.org/nexus/service/local/staging/deploy/maven2</jboss.releases.repo.url>
@@ -310,7 +311,7 @@
             <dependency>
                 <groupId>org.osgi</groupId>
                 <artifactId>osgi.enterprise</artifactId>
-                <version>${version.osgi}</version>
+                <version>${version.osgi.enterprise}</version>
 	    </dependency>
             <dependency>
                 <groupId>org.osgi</groupId>
