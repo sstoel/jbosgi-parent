@@ -92,10 +92,8 @@
         <version.jboss.modules>2.1.6.Final</version.jboss.modules>
         <version.jboss.msc>1.5.6.Final</version.jboss.msc>
         <version.jboss.vfs>3.3.2.Final</version.jboss.vfs>
-        <!-- Java EE Specs -->
-        <version.jboss.javaee.8.0.spec>1.0.4.Final</version.jboss.javaee.8.0.spec>
-
         <!-- OSGI -->
+        <version.junit>4.13.2</version.junit>
         <version.osgi>8.0.0</version.osgi>
         <version.osgi.enterprise>7.0.0</version.osgi.enterprise>
 
@@ -111,12 +109,17 @@
         <connection>scm:git:git://github.com/jbosgi/jbosgi-parent.git</connection>
         <developerConnection>scm:git:git@github.com:jbosgi/jbosgi-parent.git</developerConnection>
         <url>http://github.com/jbosgi/jbosgi-parent</url>
-        <tag>jbosgi-parent-3.0.3</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <!-- DependencyManagement -->
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${version.junit}</version>
+            </dependency>
             <dependency>
                 <groupId>org.apache.maven</groupId>
                 <artifactId>maven-aether-provider</artifactId>
@@ -512,7 +515,7 @@
                         <configuration>
                             <rules>
                                 <requireJavaVersion>
-                                    <version>[1.8,)</version>
+                                    <version>[${maven.compiler.target},)</version>
                                 </requireJavaVersion>
                             </rules>
                         </configuration>
