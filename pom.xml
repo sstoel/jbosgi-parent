@@ -527,6 +527,9 @@
                 <configuration>
                     <source>${maven.compiler.source}</source>
                     <target>${maven.compiler.target}</target>
+                    <!-- javac 23 and later only run the annotation processors on the class path, e.g. the jboss-logging
+                         processor that generates the message loggers and bundles, when that is asked for -->
+                    <proc>full</proc>
                     <showDeprecation>true</showDeprecation>
                     <showWarnings>true</showWarnings>
                     <optimize>true</optimize>
